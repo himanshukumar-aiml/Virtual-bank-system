@@ -1,30 +1,25 @@
-# Virtual-bank-system
-Bank system using Python OOP : credit, debit &amp; balance check with class, methods &amp; condition handling.
-<br>
-class Bank :
+# 🏦 Virtual Banking System in Python
 
-    def __init__(self , bal , acc_no):
-        self.balance = bal
-        self.acc_no = acc_no
+This project is a **Virtual Banking System** developed in **Python** using **Object-Oriented Programming (OOP)** principles. It simulates basic banking operations like creating an account, checking balance, depositing, withdrawing, and transferring money between accounts.
 
-    #debit
-    def debit(self , amount):
-        self.balance -= amount
-        print( amount, "amount was debited")
-        print("total balance :" , self.balance)
-        
-    #credit
-    def credit(self , amount):
-        self.balance += amount
-        print( amount, "amount was credited")
-        print("total balance :" , self.balance)
+---
 
-    #balance
-    def check_balance (self ):
-        return self.balance
-    
+## 🚀 Features
 
-account1 = Bank(10000 , 1234)
-account1.credit(1000)
-account1.debit(300)
-account1.balance
+- Create a new user bank account  
+- Check account balance  
+- Deposit and withdraw money  
+- Transfer funds between accounts  
+- Object-oriented design for modular and clean code  
+- Simple command-line interface for interaction  
+
+---
+
+## 📌 Technologies Used
+
+- **Python 3**
+- **Object-Oriented Programming (OOP)**
+
+---
+
+## 📁 Project Structure
