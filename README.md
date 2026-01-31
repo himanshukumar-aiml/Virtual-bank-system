@@ -8,8 +8,7 @@ This project is a **Virtual Banking System** developed in **Python** using **Obj
 
 - Create a new user bank account  
 - Check account balance  
-- Deposit and withdraw money  
-- Transfer funds between accounts  
+- Deposit and withdraw money   
 - Object-oriented design for modular and clean code  
 - Simple command-line interface for interaction  
 
